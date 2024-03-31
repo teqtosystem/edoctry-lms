@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assesmentreports",
+  "info": {
+    "singularName": "assesmentreport",
+    "pluralName": "assesmentreports",
+    "displayName": "assesmentreport",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "customerid": {
+      "type": "string"
+    },
+    "assesment_id": {
+      "type": "integer"
+    },
+    "marks": {
+      "type": "integer"
+    },
+    "assesment_evalution_report": {
+      "type": "json"
+    },
+    "fullMarks": {
+      "type": "integer"
+    },
+    "passMarks": {
+      "type": "integer"
+    },
+    "qsid": {
+      "type": "string"
+    },
+    "courseid": {
+      "type": "string"
+    }
+  }
+}

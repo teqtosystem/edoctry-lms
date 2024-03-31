@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assesmentquestions",
+  "info": {
+    "singularName": "assesmentquestion",
+    "pluralName": "assesmentquestions",
+    "displayName": "assesmentquestion"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "assesment_id": {
+      "type": "integer"
+    },
+    "question_type": {
+      "type": "string"
+    },
+    "question_id": {
+      "type": "integer"
+    },
+    "courseid":{
+      "type":"string"
+    },
+    "course_title":{
+      "type":"string"
+    }
+  }
+}

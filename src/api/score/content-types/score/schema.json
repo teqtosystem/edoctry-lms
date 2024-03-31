@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "scores",
+  "info": {
+    "singularName": "score",
+    "pluralName": "scores",
+    "displayName": "score",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "customeremail": {
+      "type": "email"
+    },
+    "customerAnswer": {
+      "type": "text"
+    },
+    "instructor": {
+      "type": "string"
+    },
+    "courseid":{
+      "type":"string"
+    },
+    "assesmentid":{
+      "type":"string"
+    },
+    "totalScored":{
+    "type":"integer",
+    "default":0
+    },
+    "passMarks":{
+      "type": "integer",
+      "default": 0
+    },
+    "fullMarks":{
+      "type":"integer",
+      "default":0
+      },
+      "assesment_title":{
+        "type":"string"
+      }
+  }
+}

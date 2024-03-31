@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "singularName": "course",
+    "pluralName": "courses",
+    "displayName": "course",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "course_title": {
+      "type": "string"
+    },
+    "course_brief": {
+      "type": "richtext"
+    },
+    "course_fee": {
+      "type": "integer",
+      "default": 0
+    },
+    "instructor": {
+      "type": "string"
+    },
+    "course_fee_premium": {
+      "type": "integer",
+      "default": 0
+    },
+    "language": {
+      "type": "string"
+    },
+    "introductory_video": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "integer",
+      "default": 0
+    },
+    "course_logo": {
+      "type": "string"
+    },
+    "course_outline": {
+      "type": "richtext"
+    },
+    "enrollment_count": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
